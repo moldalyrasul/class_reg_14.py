@@ -1,6 +1,6 @@
-desired_sum = int(input(' желаемая сумма: '))
+num = int(input(' желаемая сумма: '))
 
-class summa:
+class Summa:
     def __init__(self, numbers: list,desired_sum: int ):
         self.numbers = numbers
         self.desired_sum = desired_sum
@@ -14,9 +14,10 @@ class summa:
 
 
 
-numbers = [2, 7, 11, 15]
-
-for i in range(len(numbers)-1):
-    if (numbers[i]+(numbers[i+1])) == desired_sum:
-        print([i, i+1])
+num_1 = Summa(numbers=[2, 7, 11, 15], desired_sum=num)
+print(num)
+print(num_1.index())
+# for i in range(len(numbers)-1):
+#     if (numbers[i]+(numbers[i+1])) == desired_sum:
+#         print([i, i+1])
 
