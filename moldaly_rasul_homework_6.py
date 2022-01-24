@@ -12,8 +12,6 @@ class Summa:
                 if (self.numbers[i] + self.numbers[n]) == self.desired_sum:
                     return (i, n)
 
-
-
 num_1 = Summa(numbers=[2, 7, 11, 15], desired_sum=num)
 print(num)
 print(num_1.index())
