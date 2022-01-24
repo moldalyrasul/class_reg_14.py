@@ -88,6 +88,8 @@ result = re.findall(what_searth, my_text_file)
 
 
 
+n = 0
+
 for item in result:
     print(item)
     result_file.write(item + '\n')
